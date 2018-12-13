@@ -1,6 +1,6 @@
 FROM node:latest
-COPY . /app
-WORKDIR /app
+COPY . /usr/src/app
+WORKDIR /usr/src/app
 RUN npm install
-ENTRYPOINT npm run serve
+ENTRYPOINT npm run server
 
