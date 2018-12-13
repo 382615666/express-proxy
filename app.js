@@ -3,6 +3,8 @@ const proxy = require('http-proxy-middleware')
 
 const config = require('./config.json')
 
+console.log(config)
+
 const app = express()
 
 app.use(express.static('dist'))
@@ -12,4 +14,5 @@ config.proxys.forEach(item => {
 })
 
 app.get('/', (req, res) => res.sendfile('./dist/index.html'))
+
 app.listen(config.port, () => console.log(`listening on port ${config.port}`))
