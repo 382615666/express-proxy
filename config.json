@@ -1,12 +1,4 @@
 {
   "port": 80,
-  "proxys": [
-    // api 请参考 http-proxy-middleware
-//    {
-//      "path": "/authorization",
-//      "config": {
-//        "target": "http://39.106.197.100:81"
-//      }
-//    }
-  ]
+  "proxys": []
 }
