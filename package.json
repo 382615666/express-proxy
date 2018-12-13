@@ -1,0 +1,24 @@
+{
+  "name": "express-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/382615666/express-proxy.git"
+  },
+  "keywords": [],
+  "author": "gana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/382615666/express-proxy/issues"
+  },
+  "homepage": "https://github.com/382615666/express-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1"
+  }
+}

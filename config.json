@@ -1,0 +1,11 @@
+{
+  "port": 80,
+  "proxys": [
+    {
+      "path": "/authorization",
+      "config": {
+        "target": "http://39.106.197.100:81"
+      }
+    }
+  ]
+}
