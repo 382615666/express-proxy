@@ -2,7 +2,6 @@ const express = require('express')
 const proxy = require('http-proxy-middleware')
 
 const config = require('./config/config.json')
-console.log(config)
 
 const app = express()
 
