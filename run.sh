@@ -12,4 +12,4 @@ docker build -t $server$repository:$1 .
 
 docker tag $server$repository:$1 $server$repository:latest
 
-docker push $server$repository:latest
+docker push $server$repository
