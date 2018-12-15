@@ -13,4 +13,4 @@ config.proxys.forEach(item => {
 
 app.get('/', (req, res) => res.sendfile(`./dist/${config.index || 'index.html'}`))
 
-app.listen(config.port, () => console.log(`listening on port ${config.port}`))
+app.listen(config.port, () => console.log(`listening on ${config.index || 'index.html'} and port ${config.port}`))
